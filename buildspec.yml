@@ -5,7 +5,4 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-artifacts:
-  files:
-    - target/test.war
-  discard-paths: yes
+
